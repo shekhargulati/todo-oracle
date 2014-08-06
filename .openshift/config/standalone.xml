@@ -136,7 +136,7 @@
                     </xa-pool>
                     <security>
                         <user-name>${env.OPENSHIFT_ORACLE_DB_USERNAME}</user-name>
-                        <password>${env.OPENSHIFT_ORACLE_DB_USERNAME}</password>
+                        <password>${env.OPENSHIFT_ORACLE_DB_PASSWORD}</password>
                     </security>
                 </xa-datasource>
 				<drivers>
